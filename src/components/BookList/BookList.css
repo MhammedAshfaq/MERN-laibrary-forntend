@@ -1,0 +1,51 @@
+section {
+  /* margin: 50px 30px; */
+  display: flex;
+  justify-content: center;
+}
+.booker__cads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+
+}
+.book__cart {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #111;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__inner img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 298px;
+  height: 180px;
+  border: none;
+  object-fit: contain;
+}
+.bootom__inner {
+  margin-left: 10px;
+}
+.bootom__inner h3 {
+  color: rgb(63, 62, 62);
+  font-size: 17px;
+  font-weight: 700;
+}
+.bootom__inner p {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+.button_Add button {
+  background-color: #fff;
+  width: 298px;
+  font-weight: 700;
+}

@@ -1,0 +1,7 @@
+.pending {
+  background-color: rgb(183, 60, 60);
+  color: red;
+}
+.placeed {
+  font-weight: bold;
+}
